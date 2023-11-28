@@ -51,7 +51,7 @@ public class ShellSort {
                 int temp = arr[i];
                 int j;
 
-                //compara y mueve elementos dentro del intervalo
+                //compara y mueve elementos 
                 for (j = i; j >= intervalo && arr[j - intervalo] > temp; j -= intervalo) { 
                     arr[j] = arr[j - intervalo];
                 }
