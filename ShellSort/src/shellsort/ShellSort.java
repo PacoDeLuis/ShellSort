@@ -21,7 +21,7 @@ public class ShellSort {
         //crea un arreglo para almacenar los elementos
         int[] arr = new int[n];
 
-        //solicita al usuario que ingrese los elementos uno por uno
+        //solicita al usuario que ingrese los elementos
         for (int i = 0; i < n; i++) {
             System.out.print("Elemento " + (i + 1) + ": ");
             arr[i] = scanner.nextInt();
